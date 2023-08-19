@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/Image/Untitled design.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style/css/bootstrap.min.css">
+    <script src="/style/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherApp | JaphetMoise</title>
+</head>
+<body>
+    <div class="container-fluid p-3 text-center" style="background-image: linear-gradient(75deg,grey,white,rgb(121, 214, 121));">
+        <h1>WeatherApp</h1>
+        <h3 class="blockquote">by Japhet Moise</h3>
+    </div>
+    <div class=" container bg-info">
+       <div class="input-group"> <span class="input-group-text"><b class="glyphicon glyphicon-user"> City</b></span>
+        <input type="text" placeholder="Enter city" id="city" onchange="displayCityData()"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-3">
+            <h5 class="text-center" style="background-color: darkslategrey; color: white;">city description</h5>
+            <section id="left">
+        <script>
+            displayCityData()
+        </script></section>
+        <p class="condition text-center">
+            <img src="" alt="" id="icon"><br>
+            <span id="text"> </span>
+        </p>
+
+        </div>
+        <div class="col-sm-9">
+           <div class="flex-container" id="current_data">            
+            <script>
+                displayCityData()
+            </script></section>
+           </div>
+        </div>
+        
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+       2023 &copy JaphetMoise
+    </footer>
+</body> 
+</html>

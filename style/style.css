@@ -1,0 +1,55 @@
+body{
+    margin: 10px 30px 0px 30px;
+}
+div>div>div{    
+    box-shadow:10px goldenrod;
+    border-right: 6px solid grey;    
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+table{
+    width: auto;
+    font-size: small;
+}
+input{
+    border: 0px;
+}
+.flex-container{
+    width: 100%;
+    border: 0px;
+}
+.flex-container>div{
+    overflow-x: hidden;
+    float: left;
+    margin: 10px;
+    width: fit-content;
+    border: 0px;
+    box-shadow: 5px 5px 5px goldenrod;
+   min-height: 10px;
+   max-width: 100px;
+   text-align: center;
+    padding: 20px;
+    max-width: 100px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.flex-container>div>div{
+    background-color: black;
+    color: aliceblue;
+    min-height: 30px;
+    border: 0px;
+    border-radius: 5px;    
+    font-weight:lighter;
+}
+.condition{
+    background-image:linear-gradient(rgb(199, 199, 221),rgb(51, 119, 238),white, grey,rgb(176, 241, 176));
+    font-weight: bold;
+    text-shadow: 8px 5px 5px ;
+    font-size: xx-large;
+}
+img{
+    width: 100px;
+    height:100px;
+}
